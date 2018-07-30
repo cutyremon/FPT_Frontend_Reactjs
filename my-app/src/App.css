@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+  /* opacity: 0.3; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+.fa{
+  border: none;
+font-size: large;
+float: right;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} 
+.inputText{
+  position: relative;
+ display:inline;
+ height: 100%;
+ width: 100%;
+}
+.inputText .inputCheckbox{
+  position: absolute;
+  top: -1px;
+}
+.inputText input{
+    padding: 16px 16px 16px 60px;
+  border: none;
+}
+.inputText input:focus{
+  outline: none;
+}
+.formTodo {
+  border: none;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background: hsl(0, 100%, 100%);
+  /* padding: 16px 16px 16px 60px; */
+  height: 60%;
+}
+.input3 {
+  border-style: inset;
+  width:375px;
+  float: left;
+}
+.input3 nav{
+  float: left;
+}
+.input2 {
+  border: none;
+  background: hsl(0, 100%, 100%);
+  padding: 16px 16px 16px 23px;
+  z-index: 1;
+  width: -moz-available;
+  margin-bottom: -16px;
+  margin-left: -39px;
+  text-align: left;
+} 
+h5 {
+  margin: 9px;
+  text-align: center;
+}
+
+.btn:hover,
+.active {
+  background-color: #666;
+  color: honeydew;
+}
+.disp {
+  display: none;
+}
+.column1{
+  transition: color 0.4s;
+  white-space: pre-line;
+  word-break: break-all;
+  z-index: 2;
+  border-top: 1px solid #e6e6e6;
+}
+.column1 li{
+list-style: none;
+position: relative;
+font-size: 24px;
+border-bottom: 1px solid #ededed;
+}
